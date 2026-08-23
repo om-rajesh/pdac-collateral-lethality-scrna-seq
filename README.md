@@ -11,8 +11,8 @@ Scores KRAS-adjacent collateral-lethality **dependency signatures** (_MAT2A,
 PRMT5, VPS4A_) against the classical–basal axis in two independent PDAC
 scRNA-seq cohorts (Peng, Steele), using within-patient partial Spearman
 correlations residualized on QC covariates, with random and expression-matched
-null signatures (n = 1000), positive/negative controls, a six-part robustness
-battery (V1–V6), independent cross-cohort replication, and Pharos/TCRD
+null signatures (n = 1000), positive/negative controls, a six robustness
+tests, independent cross-cohort replication, and Pharos/TCRD
 druggability annotation.
 
 ## Repository contents
