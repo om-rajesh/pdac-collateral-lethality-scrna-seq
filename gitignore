@@ -1,0 +1,15 @@
+# Raw data and regenerated intermediates (too large / not distributable here)
+*.h5ad
+*.h5
+*.csv
+*.gz
+data/
+Downloads/
+
+# Jupyter / Python cruft
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+env/
