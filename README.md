@@ -67,7 +67,7 @@ regenerated run:
 1. Place the four raw inputs where `DOWNLOADS` points.
 2. `Restart & Run All`.
 
-Expect roughly ~90 minutes end to end (Harmony integration, inferCNV, cNMF, the
+Expect roughly ~45 minutes end to end (Harmony integration, inferCNV, cNMF, the
 null distributions, and the live Pharos query dominate the time). Intermediates
 (`PENG_MAL`, `STEELE_MAL`, `PENG_CNMF`, `PENG_CNV`) are written back to
 `DOWNLOADS`; set `FORCE_REBUILD = False` to reuse them on subsequent runs.
