@@ -3,7 +3,7 @@
 
 Single-author analysis code accompanying the manuscript of the same name. The
 notebook regenerates every intermediate, statistic, and figure from the
-processed input matrices — one restart-and-run-all reproduces the paper.
+processed input matrices, one restart-and-run-all reproduces the paper.
 
 ## What this does
 
@@ -17,9 +17,9 @@ druggability annotation.
 
 ## Repository contents
 
-- `analysis.ipynb` — the complete analysis notebook.
-- `requirements.txt` — Python dependencies.
-- `LICENSE` — see "License" below (not yet added).
+- `analysis.ipynb` - the complete analysis notebook.
+- `requirements.txt` - Python dependencies.
+- `LICENSE` - see "License" below (not yet added).
 
 Raw data and intermediate `.h5ad` files are **not** committed (too large); see
 "Data" below for provenance.
@@ -33,21 +33,21 @@ pip install -r requirements.txt
 ```
 
 For an exact reproduction, pin to the versions you actually ran with
-(`pip freeze > requirements.txt` in your working environment) — the shipped
+(`pip freeze > requirements.txt` in your working environment) - the shipped
 `requirements.txt` is unpinned.
 
 ## Data
 
 The notebook's Preflight cell requires **four raw input files** and stops
 loudly if any are missing. By default it looks for them in `~/Downloads`
-(the `DOWNLOADS` constant in the Configuration cell — change it to point
+(the `DOWNLOADS` constant in the Configuration cell - change it to point
 wherever you keep the files, e.g. a repo-relative `./data`).
 
 | Constant        | Source |
 |-----------------|--------|
 | `PENG_PROC`     | Peng et al. PDAC scRNA-seq, log-normalized as distributed by **TISCH** (tisch.comp-genomics.org). |
 | `STEELE_QC`     | Steele et al. PDAC scRNA-seq, **GEO GSE155698**. |
-| `DEPMAP_CRISPR` | **DepMap** (Broad Institute) CRISPR gene-effect (Chronos) matrix — depmap.org/portal. Record the release version you used. |
+| `DEPMAP_CRISPR` | **DepMap** (Broad Institute) CRISPR gene-effect (Chronos) matrix - depmap.org/portal. Record the release version you used. |
 | `DEPMAP_EXPR`   | **DepMap** expression matrix, same release. |
 
 Two resources are queried **live over the internet** at run time (no local
@@ -61,7 +61,7 @@ Full dataset citations are in the manuscript's *Data Sources* section.
 
 The Configuration cell sets `SEED = 0`, `N_NULL = 1000`, and
 `FORCE_REBUILD = True`. With `FORCE_REBUILD = True`, every intermediate is
-rebuilt from the raw inputs even if a cached `.h5ad` exists — a clean, fully
+rebuilt from the raw inputs even if a cached `.h5ad` exists - a clean, fully
 regenerated run:
 
 1. Place the four raw inputs where `DOWNLOADS` points.
