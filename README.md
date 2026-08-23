@@ -74,6 +74,4 @@ null distributions, and the live Pharos query dominate the time). Intermediates
 
 ## License
 
-No license file is included yet. Research code is commonly released under the
-**MIT License**; add a `LICENSE` file before making the repo public so others
-know the terms of reuse.
+Released under the MIT License — © 2026 om-rajesh. See LICENSE for the full text.
