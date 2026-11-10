@@ -1,0 +1,28 @@
+# Python 3.11. Versions are those of the reported run (full list: package_versions.txt).
+
+# required
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.17.1
+scanpy==1.11.5
+anndata==0.12.17
+h5py==3.16.0
+scikit-learn==1.9.0
+statsmodels==0.14.6
+matplotlib==3.10.9
+harmonypy==0.0.9
+infercnvpy==0.6.1
+pybiomart==0.2.0
+leidenalg==0.12.0
+igraph==1.0.0
+umap-learn==0.5.12
+
+# optional: each is needed by one part only, which is skipped without it
+gseapy==1.2.1      # gene-set libraries and over-representation
+cnmf==1.7.1        # cNMF benchmark
+psutil==7.2.2      # memory reporting
+requests==2.34.2   # Appendix A
+
+# to run the notebook
+jupyterlab==4.5.7
+ipykernel==7.2.0

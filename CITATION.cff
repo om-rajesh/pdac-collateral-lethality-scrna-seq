@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Analysis code for: Basal-like cells in heterogeneous pancreatic tumors preferentially express genes linked to VPS4A dependency"
+authors:
+  - family-names: Rajesh
+    given-names: Om
+license: MIT
+repository-code: "https://github.com/om-rajesh/pdac-collateral-lethality-scrna-seq"

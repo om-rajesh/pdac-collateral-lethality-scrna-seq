@@ -1,0 +1,23 @@
+# Data and intermediates: too large for git; inputs are public, intermediates are on Zenodo
+*.h5ad
+*.h5
+*.npz
+*.tar
+*.tar.gz
+*.gz
+*.loom
+data/
+pdac_results/
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
