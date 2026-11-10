@@ -12,8 +12,6 @@ Transcriptional signatures associated with dependency on *VPS4A*, *PRMT5* and *M
 |---|---|
 | `analysis_notebook.ipynb` | the complete analysis, with outputs |
 | `requirements.txt` | Python dependencies |
-| `package_versions.txt` | every package version of the reported run |
-| `raghavan2021_signatures.csv` | Raghavan et al. 2021 gene lists (input) |
 | `LICENSE` | MIT |
 
 ## Setup
@@ -32,7 +30,7 @@ The notebook reads its inputs from `~/Downloads` (set in section 1) and stops if
 | `CRISPRGeneEffect.csv`, `OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv`, `Model.csv` | DepMap Public 26Q1 |
 | `OmicsCNGeneWGS.csv` | DepMap Public 26Q3 |
 | `D2_combined_gene_dep_scores.csv` | DEMETER2 Data v6 |
-| `raghavan2021_signatures.csv` | this repository |
+| `raghavan2021_signatures.csv` | Raghavan et al. 2021 gene lists (on Zenodo) |
 
 The processed single-cell objects that every reported number came from are deposited on Zenodo ([10.5281/zenodo.24095835](https://doi.org/10.5281/zenodo.24095835)). Place them in `~/Downloads` too; without them, sections 6–10 rebuild them, and cluster-based compartment calls can shift with package versions.
 
