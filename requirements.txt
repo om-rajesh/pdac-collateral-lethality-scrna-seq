@@ -1,4 +1,4 @@
-# Python 3.11. Versions are those of the reported run (full list: package_versions.txt).
+# Python 3.11. Versions are those of the reported run (full list: package_versions.txt on Zenodo).
 
 # required
 numpy==2.4.6
