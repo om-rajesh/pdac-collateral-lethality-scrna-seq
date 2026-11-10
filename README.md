@@ -34,11 +34,11 @@ The notebook reads its inputs from `~/Downloads` (set in section 1) and stops if
 | `D2_combined_gene_dep_scores.csv` | DEMETER2 Data v6 |
 | `raghavan2021_signatures.csv` | this repository |
 
-The processed single-cell objects that every reported number came from are deposited at [Zenodo DOI]. Place them in `~/Downloads` too; without them, sections 6–10 rebuild them, and cluster-based compartment calls can shift with package versions.
+The processed single-cell objects that every reported number came from are deposited on Zenodo ([10.5281/zenodo.24095835](https://doi.org/10.5281/zenodo.24095835)). Place them in `~/Downloads` too; without them, sections 6–10 rebuild them, and cluster-based compartment calls can shift with package versions.
 
 ## Running
 
-*Restart & Run All.* A first run takes several hours; with `RECOMPUTE = False` (section 21) a re-run reads the cached steps and takes minutes. `FORCE_REBUILD = True` (section 1) rebuilds the single-cell objects from the raw inputs (about 90 min more). Results, tables and figures are written to `~/Downloads/pdac_results`. The seed is 0, so a re-run reproduces the printed numbers.
+*Restart & Run All.* A first run takes several hours; with `RECOMPUTE = False` (section 21) a re-run reads the cached steps and takes minutes. `FORCE_REBUILD = True` (section 1) rebuilds the single-cell objects from the raw inputs and prints the quality-control, clustering and copy-number evidence (about 90 min more). Results, tables and figures are written to `~/Downloads/pdac_results`. The seed is 0, so a re-run reproduces the printed numbers.
 
 ## License
 
